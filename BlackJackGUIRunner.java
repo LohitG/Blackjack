@@ -1,7 +1,7 @@
 /**
  * Write a description of class PairsGUIRunner here.
  *
- * @author Justin Huang
+ * @author Lohit Geddam
  * @version 4/20/2019
  */
 public class BlackJackGUIRunner 
