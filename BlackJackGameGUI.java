@@ -55,7 +55,7 @@ public class BlackJackGameGUI extends JFrame implements ActionListener {
     private static final int LABEL_HEIGHT_INC = 35;
 
     /** The board  */
-    private BlackJackBoard board;
+    private Board board;
 
     /** The main panel containing the game components. */
     private JPanel panel;
@@ -92,7 +92,7 @@ public class BlackJackGameGUI extends JFrame implements ActionListener {
      * Initialize the GUI.
      * @param gameBoard is a <code>Board</code> subclass.
      */
-    public BlackJackGameGUI(BlackJackBoard gameBoard) {
+    public BlackJackGameGUI(Board gameBoard) {
         board = gameBoard;
         totalWins = 0;
         totalGames = 0;
