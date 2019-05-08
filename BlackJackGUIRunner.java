@@ -11,7 +11,7 @@ public class BlackJackGUIRunner
      * @param args is not used.
      */
     public static void main(String[] args) {
-        BlackJackBoard board = new BlackJackBoard(7);
+        Board board = Board(7);
         BlackJackGameGUI gui = new BlackJackGameGUI(board);
         gui.displayGame();
     }
